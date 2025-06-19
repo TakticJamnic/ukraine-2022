@@ -23,7 +23,7 @@ Do gry niezbędna jest aplikacja Vassal. Jest to darmowy silnik do uruchamiania 
 ``` yaml
 Ukraina-2022/
 │
-├── System World War 3.vmod  # Plik zawierający moduł Vassal
+├── WW3.vmod                 # Plik zawierający moduł Vassal
 └── scenarios/               # Katalogi scenariuszy:
   └── [nazwa_scenariusza]/
     ├── graphics/            # Mapy, jednostki, okładki, screeny
