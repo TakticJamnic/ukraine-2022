@@ -2,8 +2,13 @@
 
 # Ukraina 2022
 
-Ukraina 2022 to seria wirtualnych gier planszowych zrealizowanych w silniku Vassal w systemie World War 3 (WW3) wydawnictwa Taktyka i Strategia (Gry w tym systemie można kupić np. tu https://taktykaistrategia.pl/kategoria-produktu/nasze-gry/?filter_system=ww3&query_type_system=or)
+Ukraina 2022 to seria wirtualnych gier planszowych zrealizowanych w silniku Vassal w systemie World War 3 (WW3) wydawnictwa Taktyka i Strategia.
+Gry i instrukcje do systemu można zakupić m.in. tutaj:
 
+* 👉 System WW3 Taktyka i Strategia https://taktykaistrategia.pl/kategoria-produktu/nasze-gry/?filter_system=ww3&query_type_system=or
+* 👉 Sklep Taktyka i Strategia https://taktykaistrategiasklep.pl/
+
+## Opis konfliktu
 Ukraina 2022 to próba odtworzenia i upamiętnienia historycznych starć, jakie miały miejsce podczas Rosyjskiej Inwazji na Ukrainę (2022-).
 
 ## Jak uruchamiać
@@ -16,7 +21,7 @@ Do gry niezbędna jest aplikacja Vassal. Jest to darmowy silnik do uruchamiania 
 ## Struktura repozytorium
 
 ``` yaml
-Kryzys-2025/
+Ukraina-2022/
 │
 ├── System World War 3.vmod  # Plik zawierający moduł Vassal
 └── scenarios/               # Katalogi scenariuszy:
@@ -30,6 +35,9 @@ Kryzys-2025/
 ```
 
 ## Scenariusze
+
+---
+
 ### 1️⃣ Sumy, Luty 2022 
 
 <img src="scenarios/sumy_ferbruary_2022/graphics/screenshots/screenshot.png" width="400" height="240">
@@ -40,3 +48,5 @@ Pierwsze dni wojny, dzielni obrońcy z wojsk terytorialnych okręgu sumskiego pr
 <summary>1️⃣ Sumy, Luty 2022</summary>
 * <img src="scenarios/sumy_ferbruary_2022/scenario/scenario.png">
 </details>
+
+---
