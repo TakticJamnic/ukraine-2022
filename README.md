@@ -8,23 +8,35 @@ Ukraina 2022 to próba odtworzenia i upamiętnienia historycznych starć, jakie 
 
 ## Jak uruchamiać
 
-* Należy otworzyć moduł "System World War 3.vmod". Jest to podstawowa wersja gry nie zawierająca żadnego scenariusza.
-* Następnie należy pobrać plik *.vmdx z odpowiedniego scenariusza i zainstalować jako dodatek do modułu.
+Do gry niezbędna jest aplikacja Vassal. Jest to darmowy silnik do uruchamiania wirtualnych gier planszowych. Można ją pobrać tutaj: https://vassalengine.org/download.html
 
-## Scenariusze  
-
-* 1️⃣ Sumy, Luty 2022 - pierwsze dni wojny, dzielni obrońcy z wojsk terytorialnych okręgu sumskiego próbują powtrzymać marsz najeźdźcy w stronę Kijowa.
-
-* <img src="scenarios/sumy_ferbruary_2022/scenario/scenario.png">
+* Pobierz i uruchom moduł **WW3.vmod**. Jest to podstawowa wersja gry, nie zawiera scenariuszy.
+* W folderze ze scenariuszami pobierz odpowiedni plik **Rozszerzenie - xxx.vmdx** i zainstaluj go jako dodatek do modułu **Kryzys 2025** w Vassal.
 
 ## Struktura repozytorium
 
-* System World War 3.vmod - plik zawierający moduł Vassal
-* scenarios/ - katalogi ze scenariuszami, każdy scenariusz zawiera:
-    * graphics/ - grafiki związane ze scenariuszem, mapy, jednostki, okładki, screenshoty
-    * scenario/ - scenariusz/kolejne scenariusze do gry z opisami i zmianami w zasadach
-    * psd/ - pliki źródłowe w formacie photoshop
-    * saves/ - pliki z zapisami do gry, zwykle jest to rozstawienie początkowe zgodnie ze scenariuszem
-    * *.vmdx - plik z dodatkiem do głównego modułu
-    * *.vmod - niektóre scenariusze mają też swój samodzielny moduł, nie dodatek
+``` yaml
+Kryzys-2025/
+│
+├── System World War 3.vmod  # Plik zawierający moduł Vassal
+└── scenarios/               # Katalogi scenariuszy:
+  └── [nazwa_scenariusza]/
+    ├── graphics/            # Mapy, jednostki, okładki, screeny
+    ├── scenario/            # Opisy scenariuszy i zmiany zasad
+    ├── psd/                 # Źródła graficzne (Photoshop)
+    ├── saves/               # Zapisy do gry (np. rozstawienie początkowe)
+    ├── *.vmdx               # Rozszerzenie do głównego modułu
+    └── *.vmod               # Czasem osobny moduł dla danego scenariusza
+```
 
+## Scenariusze
+### 1️⃣ Sumy, Luty 2022 
+
+<img src="scenarios/sumy_ferbruary_2022/graphics/screenshots/screenshot.png" width="400" height="240">
+
+Pierwsze dni wojny, dzielni obrońcy z wojsk terytorialnych okręgu sumskiego próbują powtrzymać marsz najeźdźcy w stronę Kijowa.
+
+<details>
+<summary>1️⃣ Sumy, Luty 2022</summary>
+* <img src="scenarios/sumy_ferbruary_2022/scenario/scenario.png">
+</details>
