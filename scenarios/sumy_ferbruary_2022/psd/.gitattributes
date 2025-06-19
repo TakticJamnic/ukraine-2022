@@ -1,0 +1,7 @@
+Żetony[[:space:]]Tło.psd filter=lfs diff=lfs merge=lfs -text
+Sumy[[:space:]]2022[[:space:]]-[[:space:]]Okładka.psd filter=lfs diff=lfs merge=lfs -text
+Sumy[[:space:]]2022[[:space:]]-[[:space:]]Scenariusz.psd filter=lfs diff=lfs merge=lfs -text
+Sumy[[:space:]]2022[[:space:]]-[[:space:]]Thumbnail.psd filter=lfs diff=lfs merge=lfs -text
+Sumy.psd filter=lfs diff=lfs merge=lfs -text
+Żetony[[:space:]]Przód.psd filter=lfs diff=lfs merge=lfs -text
+Żetony[[:space:]]Tył.psd filter=lfs diff=lfs merge=lfs -text
